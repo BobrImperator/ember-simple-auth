@@ -1,5 +1,6 @@
 /* global ReadableStream, WritableStream, TransformStream */
 module.exports = function() {
+  console.log(require('node-fetch'));
   return {
     buildSandboxGlobals(defaultGlobals) {
       return Object.assign({}, defaultGlobals, {
