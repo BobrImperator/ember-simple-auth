@@ -3,7 +3,7 @@ module.exports = {
   buildSandboxGlobals(defaultGlobals) {
     return Object.assign({}, defaultGlobals, {
       AbortController,
-      fetch,
+      fetch: require('node-fetch'),
       ReadableStream:
         typeof ReadableStream !== 'undefined' ? ReadableStream : require('node:stream/web').ReadableStream,
       WritableStream:
