@@ -16,77 +16,10 @@ module.exports = function() {
       useYarn: true,
       scenarios: [
         {
-          name: 'ember-lts-3.12',
-          npm: {
-            devDependencies: {
-              'ember-cli': '~3.28.0',
-              'ember-data': '~3.12.0',
-              'ember-source': '~3.12.0',
-              'ember-inflector': '~3.0.1',
-              '@ember/string': '~3.0.1',
-              'torii': '^0.10.0',
-              'ember-engines': '0.8.21',
-              '@ember/legacy-built-in-components': null,
-            },
-          },
-        },
-        {
-          name: 'ember-lts-3.16',
-          npm: {
-            devDependencies: {
-              'ember-cli': '~3.28.0',
-              'ember-data': '~3.16.0',
-              'ember-source': '~3.16.0',
-              'ember-inflector': '~3.0.1',
-              '@ember/string': '~3.0.1',
-              'torii': '^0.10.0',
-              'ember-engines': '0.8.21',
-              '@ember/legacy-built-in-components': null,
-            },
-          },
-        },
-        {
-          name: 'ember-lts-3.20',
-          npm: {
-            devDependencies: {
-              'ember-cli': '~3.28.0',
-              'ember-data': '~3.20.0',
-              'ember-source': '~3.20.0',
-              'ember-inflector': '~3.0.1',
-              '@ember/string': '~3.0.1',
-              'torii': '^0.10.0',
-              'ember-engines': '0.8.21',
-              '@ember/legacy-built-in-components': null,
-            },
-          },
-        },
-        {
-          name: 'ember-lts-3.24',
-          npm: {
-            devDependencies: {
-              'ember-cli': '~3.28.0',
-              'ember-data': '~3.24.0',
-              'ember-source': '~3.24.0',
-              'ember-engines': '0.8.21',
-              '@ember/legacy-built-in-components': null,
-            },
-          },
-        },
-        {
-          name: 'ember-lts-3.28',
-          npm: {
-            devDependencies: {
-              'ember-cli': '~3.28.0',
-              'ember-data': '~3.28.0',
-              'ember-source': '~3.28.0',
-            },
-          },
-        },
-        {
           name: 'ember-4.0',
           npm: {
             devDependencies: {
-              'ember-cli': '~3.28.0',
+              'ember-cli': '~4.0.0',
               'ember-data': '~4.0.0',
               'ember-source': '~4.0.0',
               'ember-auto-import': '^2.2.3',
@@ -102,7 +35,7 @@ module.exports = function() {
           name: 'ember-lts-4.4',
           npm: {
             devDependencies: {
-              'ember-cli': '~3.28.0',
+              'ember-cli': '~4.4.0',
               'ember-data': '~4.4.0',
               'ember-source': '~4.4.0',
               'ember-auto-import': '^2.2.3',
@@ -121,6 +54,22 @@ module.exports = function() {
               'ember-cli': '~4.8.0',
               'ember-data': '~4.8.0',
               'ember-source': '~4.8.0',
+              'ember-auto-import': '^2.2.3',
+              webpack: '^5.0.0',
+              '@ember/test-helpers': '^2.4.2',
+              'ember-qunit': '^5.1.4',
+              qunit: '^2.17.2',
+              'ember-cli-app-version': '~5.0.0',
+            },
+          },
+        },
+        {
+          name: 'ember-4.12',
+          npm: {
+            devDependencies: {
+              'ember-cli': '~4.12.0',
+              'ember-data': '~4.12.0',
+              'ember-source': '~4.12.0',
               'ember-auto-import': '^2.2.3',
               webpack: '^5.0.0',
               '@ember/test-helpers': '^2.4.2',
