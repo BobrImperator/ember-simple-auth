@@ -70,7 +70,6 @@
     "webpack": "^5.74.0"
   },
   "fastbootDependencies": [
-    "node-fetch",
     "crypto"
   ],
   "ember": {
