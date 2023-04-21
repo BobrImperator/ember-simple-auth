@@ -60,8 +60,8 @@ jobs:
           - test:one ember-4.0
           - test:one ember-lts-4.4
           - test:one ember-lts-4.8
-          - test:one ember-4.12
           - test:one ember-default
+          - test:one ember-release
         allow-failure: [false]
         include:
           - workspace: ember-simple-auth
@@ -74,13 +74,13 @@ jobs:
             test-suite: "test:one ember-beta"
             allow-failure: true
           - workspace: ember-simple-auth
-            test-suite: "test:one ember-release"
+            test-suite: "test:one ember-canary"
             allow-failure: true
           - workspace: test-app
-            test-suite: "test:one ember-release"
+            test-suite: "test:one ember-canary"
             allow-failure: true
           - workspace: classic-test-app
-            test-suite: "test:one ember-release"
+            test-suite: "test:one ember-canary"
             allow-failure: true
           - workspace: ember-simple-auth
             test-suite: "test:one embroider-safe"
