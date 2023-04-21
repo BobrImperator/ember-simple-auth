@@ -1,7 +1,7 @@
 /* global ReadableStream, WritableStream, TransformStream */
 module.exports = {
   buildSandboxGlobals(defaultGlobals) {
-    console.log(require('node-fetch'), fetch);
+    console.log(require('node-fetch'));
     return Object.assign({}, defaultGlobals, {
       AbortController,
       fetch: require('node-fetch'),
