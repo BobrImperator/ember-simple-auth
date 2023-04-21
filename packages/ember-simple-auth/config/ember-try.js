@@ -52,7 +52,7 @@ module.exports = function() {
               'ember-cli': '~4.12.0',
               'ember-source': '~4.12.0',
               // ember-data >=4.12 breaks under fastboot
-              // 'ember-data': '~4.12.0',
+              'ember-data': '~4.12.0',
             },
           },
         },
